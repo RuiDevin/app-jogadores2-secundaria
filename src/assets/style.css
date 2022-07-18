@@ -1,0 +1,48 @@
+.title {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .form-input {
+    display:flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 0 0.5rem;
+    height: 40px;
+
+  }
+
+  .form-input button {
+    height: 40px;
+    margin-left: 1%;
+    background-color: rgb(42, 145, 62);
+    font-weight: bold;
+    color: white;
+
+  }
+
+  .list-times {
+    display:flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+
+  table{
+    width: 40%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+table thead{
+  background-color: rgb(26,19, 80);
+  color: white;
+}
+
+table thead th{
+  font-weight: bold;
+}
+
+table tbody th:nth-child(odd){
+  background-color: rgb(143,143 ,180)
+}
